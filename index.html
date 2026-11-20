@@ -1,1 +1,1824 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brand Buyo — Performance &amp; Digital Marketing Agency | Lucknow, India</title>
+  <meta name="description" content="Brand Buyo is a senior-led digital marketing agency in Lucknow, India helping ambitious brands, clinics, and D2C businesses scale through Meta &amp; Google Ads, Local SEO, short-form content, and conversion web design." />
+  <meta name="robots" content="index, follow" />
 
+  <!-- Custom Inline SVG Favicon: White Geometric 'BB' Monogram on #111827 Rounded Badge -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Crect width='36' height='36' rx='9' fill='%23111827'/%3E%3Cpath d='M7.5 10.5V25.5M7.5 10.5H12.8C14.6 10.5 15.8 11.6 15.8 13.4C15.8 15.2 14.6 16.3 12.8 16.3H7.5M7.5 16.3H13.3C15.3 16.3 16.6 17.6 16.6 19.9C16.6 22.3 15.3 25.5 13.3 25.5H7.5' stroke='%23FFFFFF' stroke-width='2.3' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3Cpath d='M19.8 10.5V25.5M19.8 10.5H25.1C26.9 10.5 28.1 11.6 28.1 13.4C28.1 15.2 26.9 16.3 25.1 16.3H19.8M19.8 16.3H25.6C27.6 16.3 28.9 17.6 28.9 19.9C28.9 22.3 27.6 25.5 25.6 25.5H19.8' stroke='%23FFFFFF' stroke-width='2.3' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E" />
+
+  <!-- Open Graph Meta Tags (Clean WhatsApp, LinkedIn & Facebook Link Previews) -->
+  <meta property="og:title" content="Brand Buyo — Performance &amp; Digital Marketing Agency | Lucknow, India" />
+  <meta property="og:description" content="Disciplined digital growth built for measurable revenue. Paid media, Local SEO, short-form Reels, and conversion web architecture for Lucknow &amp; Pan-India brands." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_IN" />
+  <meta property="og:site_name" content="Brand Buyo" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Brand Buyo — Performance &amp; Digital Marketing Agency" />
+  <meta name="twitter:description" content="Senior-led paid acquisition, Local SEO, and conversion web design in Lucknow &amp; Pan-India." />
+
+  <!-- JSON-LD Structured Data: LocalBusiness / ProfessionalService -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "ProfessionalService"],
+    "name": "Brand Buyo",
+    "description": "Performance-driven digital marketing agency in Lucknow, Uttar Pradesh specializing in Meta & Google Ads, Local SEO, Organic Search, Short-Form Reels, and Conversion Web Design.",
+    "telephone": "+91-7983407812",
+    "email": "businessmarketing2027@gmail.com",
+    "priceRange": "₹₹",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lucknow",
+      "addressRegion": "Uttar Pradesh",
+      "postalCode": "226010",
+      "addressCountry": "IN"
+    },
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Lucknow"
+      },
+      {
+        "@type": "Country",
+        "name": "India"
+      }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/",
+      "https://in.linkedin.com/",
+      "https://www.youtube.com/",
+      "https://www.facebook.com/"
+    ]
+  }
+  </script>
+
+  <!-- Editorial Typography: Plus Jakarta Sans (Headings) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'system-ui', '-apple-system', 'sans-serif'],
+          },
+          colors: {
+            canvas: '#FAFAFA',
+            surface: '#FFFFFF',
+            ink: '#111827',
+            slateMuted: '#4B5563',
+            accent: '#0F766E',
+            accentHover: '#0D655E',
+            accentSoft: '#F0FDFA',
+            borderSubtle: '#E5E7EB',
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    /* ==========================================================================
+       QUIET LUXURY EDITORIAL STYLING & SUBTLE MICRO-INTERACTIONS
+       ========================================================================== */
+    :root {
+      --bg-canvas: #FAFAFA;
+      --text-ink: #111827;
+      --accent-emerald: #0F766E;
+      --accent-emerald-hover: #0D655E;
+      --accent-soft: #F0FDFA;
+    }
+
+    body {
+      background-color: var(--bg-canvas);
+      color: var(--text-ink);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+    }
+
+    /* Sticky Glassmorphic Header */
+    .glass-nav {
+      background: rgba(250, 250, 250, 0.88);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(229, 231, 235, 0.9);
+    }
+
+    /* Subtle IntersectionObserver Scroll Reveals */
+    .reveal {
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1),
+                  transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Refined Card Elevation */
+    .editorial-card {
+      background: #FFFFFF;
+      border: 1px solid #E5E7EB;
+      transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1),
+                  box-shadow 0.28s cubic-bezier(0.16, 1, 0.3, 1),
+                  border-color 0.25s ease,
+                  opacity 0.22s ease;
+    }
+    .editorial-card:hover {
+      transform: translateY(-3px);
+      border-color: #D1D5DB;
+      box-shadow: 0 14px 32px -12px rgba(17, 24, 39, 0.07);
+    }
+
+    /* Minimal Range Slider for Live INR Estimator */
+    input[type="range"] {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 100%;
+      height: 6px;
+      background: #E5E7EB;
+      border-radius: 999px;
+      outline: none;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #111827;
+      border: 3px solid #FFFFFF;
+      box-shadow: 0 2px 8px rgba(17, 24, 39, 0.22);
+      cursor: pointer;
+      transition: transform 0.15s ease, background-color 0.15s ease;
+    }
+    input[type="range"]::-webkit-slider-thumb:hover {
+      transform: scale(1.1);
+      background: #0F766E;
+    }
+    input[type="range"]::-moz-range-thumb {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #111827;
+      border: 3px solid #FFFFFF;
+      box-shadow: 0 2px 8px rgba(17, 24, 39, 0.22);
+      cursor: pointer;
+      transition: transform 0.15s ease, background-color 0.15s ease;
+    }
+
+    /* Slide-Over Case Study Drawer */
+    .drawer-backdrop {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.25s ease;
+    }
+    .drawer-backdrop.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .drawer-panel {
+      transform: translateX(100%);
+      transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .drawer-backdrop.open .drawer-panel {
+      transform: translateX(0);
+    }
+
+    /* Accessible Modal Overlay (Privacy Policy & Terms of Service) */
+    .modal-backdrop {
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.22s ease;
+    }
+    .modal-backdrop.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .modal-card {
+      transform: translateY(12px) scale(0.98);
+      transition: transform 0.26s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .modal-backdrop.open .modal-card {
+      transform: translateY(0) scale(1);
+    }
+
+    /* Smooth FAQ Accordion Grid Transition */
+    .faq-content {
+      display: grid;
+      grid-template-rows: 0fr;
+      transition: grid-template-rows 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .faq-item.open .faq-content {
+      grid-template-rows: 1fr;
+    }
+    .faq-inner {
+      overflow: hidden;
+    }
+    .faq-icon {
+      transition: transform 0.25s ease;
+    }
+    .faq-item.open .faq-icon {
+      transform: rotate(45deg);
+    }
+  </style>
+</head>
+<body class="font-sans text-ink selection:bg-accent selection:text-white">
+
+  <!-- ========================================================================
+       STICKY GLASSMORPHIC NAVIGATION BAR
+       ======================================================================== -->
+  <header class="glass-nav sticky top-0 z-40">
+    <div class="max-w-6xl mx-auto px-5 sm:px-8 h-20 flex items-center justify-between">
+      <!-- Brand Buyo Custom Coded White 'BB' SVG Monogram + Wordmark -->
+      <a href="#" class="flex items-center gap-3 group focus:outline-none" aria-label="Brand Buyo Home">
+        <span class="w-9 h-9 rounded-xl bg-ink group-hover:bg-accent transition-colors duration-200 flex items-center justify-center shadow-xs shrink-0">
+          <svg class="w-6 h-6" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M7.5 10.5V25.5M7.5 10.5H12.8C14.6 10.5 15.8 11.6 15.8 13.4C15.8 15.2 14.6 16.3 12.8 16.3H7.5M7.5 16.3H13.3C15.3 16.3 16.6 17.6 16.6 19.9C16.6 22.3 15.3 25.5 13.3 25.5H7.5" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M19.8 10.5V25.5M19.8 10.5H25.1C26.9 10.5 28.1 11.6 28.1 13.4C28.1 15.2 26.9 16.3 25.1 16.3H19.8M19.8 16.3H25.6C27.6 16.3 28.9 17.6 28.9 19.9C28.9 22.3 27.6 25.5 25.6 25.5H19.8" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </span>
+        <span class="font-display font-bold text-lg tracking-tight text-ink">
+          Brand <span class="text-slateMuted font-semibold">Buyo</span>
+        </span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-slateMuted" aria-label="Primary Navigation">
+        <a href="#services" class="hover:text-ink transition-colors">Services</a>
+        <a href="#work" class="hover:text-ink transition-colors">Work</a>
+        <a href="#process" class="hover:text-ink transition-colors">Process</a>
+        <a href="#estimator" class="hover:text-ink transition-colors">Estimator</a>
+        <a href="#faq" class="hover:text-ink transition-colors">FAQ</a>
+        <a href="#contact" class="hover:text-ink transition-colors">Contact</a>
+      </nav>
+
+      <!-- Primary CTA & Mobile Drawer Trigger -->
+      <div class="flex items-center gap-3">
+        <a href="#contact" class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-xl bg-ink text-white text-sm font-medium hover:bg-accent transition-colors shadow-xs">
+          Book a Strategy Call
+        </a>
+
+        <button id="mobile-menu-btn" type="button" aria-label="Open navigation menu" aria-expanded="false"
+          class="lg:hidden p-2.5 rounded-xl border border-borderSubtle bg-white text-ink hover:bg-gray-50 transition-colors">
+          <svg id="menu-icon-open" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+          <svg id="menu-icon-close" class="w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Clean Mobile Navigation Drawer -->
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-borderSubtle bg-white px-5 py-6 space-y-2 shadow-lg">
+      <a href="#services" class="mobile-nav-link block py-2.5 px-2 rounded-lg text-base font-medium text-ink hover:bg-canvas">Services</a>
+      <a href="#work" class="mobile-nav-link block py-2.5 px-2 rounded-lg text-base font-medium text-ink hover:bg-canvas">Work</a>
+      <a href="#process" class="mobile-nav-link block py-2.5 px-2 rounded-lg text-base font-medium text-ink hover:bg-canvas">Process</a>
+      <a href="#estimator" class="mobile-nav-link block py-2.5 px-2 rounded-lg text-base font-medium text-ink hover:bg-canvas">Estimator</a>
+      <a href="#faq" class="mobile-nav-link block py-2.5 px-2 rounded-lg text-base font-medium text-ink hover:bg-canvas">FAQ</a>
+      <a href="#contact" class="mobile-nav-link block py-2.5 px-2 rounded-lg text-base font-medium text-ink hover:bg-canvas">Contact</a>
+      <div class="pt-3 mt-2 border-t border-borderSubtle">
+        <a href="#contact" class="mobile-nav-link block w-full text-center px-5 py-3 rounded-xl bg-ink text-white text-sm font-medium hover:bg-accent transition-colors">
+          Book a Strategy Call
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================================================================
+         1. EDITORIAL HERO SECTION
+         ====================================================================== -->
+    <section class="pt-16 pb-20 sm:pt-24 sm:pb-28 px-5 sm:px-8">
+      <div class="max-w-6xl mx-auto">
+        <div class="max-w-3xl reveal">
+          <!-- Subtle Eyebrow Pill -->
+          <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-white border border-borderSubtle text-xs font-medium text-slateMuted mb-8">
+            <span class="w-2 h-2 rounded-full bg-accent"></span>
+            Performance &amp; Growth Partner • Lucknow &amp; Pan-India
+          </div>
+
+          <!-- Editorial Headline -->
+          <h1 class="font-display font-bold text-4xl sm:text-5xl lg:text-[3.5rem] text-ink tracking-tight leading-[1.12] mb-6">
+            Compounding digital growth built for measurable revenue.
+          </h1>
+
+          <!-- Concise Subheadline -->
+          <p class="text-lg sm:text-xl text-slateMuted leading-relaxed max-w-2xl mb-10">
+            Brand Buyo partners with ambitious D2C brands, clinics, and service businesses to build predictable customer acquisition through high-intent search, disciplined paid media, and conversion-first web design.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+            <a href="#estimator" class="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-ink text-white font-medium text-sm sm:text-base hover:bg-accent transition-colors shadow-xs">
+              Estimate Your Growth
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </a>
+            <a href="#work" class="inline-flex items-center justify-center px-7 py-3.5 rounded-xl bg-white border border-borderSubtle text-ink font-medium text-sm sm:text-base hover:border-gray-300 hover:bg-gray-50 transition-colors">
+              Explore Work
+            </a>
+          </div>
+        </div>
+
+        <!-- Clean 3-Metric Trust Strip -->
+        <div class="reveal mt-16 sm:mt-24 pt-10 border-t border-borderSubtle grid grid-cols-1 sm:grid-cols-3 gap-8">
+          <div>
+            <p class="font-display font-bold text-3xl sm:text-4xl text-ink tracking-tight">3.8x</p>
+            <p class="text-sm text-slateMuted mt-1">Avg. Client ROAS Across Paid Media</p>
+          </div>
+          <div>
+            <p class="font-display font-bold text-3xl sm:text-4xl text-ink tracking-tight">₹12Cr+</p>
+            <p class="text-sm text-slateMuted mt-1">Tracked Ad Spend Managed</p>
+          </div>
+          <div>
+            <p class="font-display font-bold text-3xl sm:text-4xl text-ink tracking-tight">92%</p>
+            <p class="text-sm text-slateMuted mt-1">Long-Term Client Retention</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         2. SERVICES SECTION (Interactive Filter + 6 Clean Service Cards)
+         ====================================================================== -->
+    <section id="services" class="py-20 sm:py-28 px-5 sm:px-8 bg-white border-y border-borderSubtle">
+      <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-12 reveal">
+          <div class="max-w-xl">
+            <p class="text-xs font-semibold uppercase tracking-widest text-accent mb-3">Capabilities</p>
+            <h2 class="font-display font-bold text-3xl sm:text-4xl text-ink tracking-tight">
+              Focused growth systems engineered around unit economics.
+            </h2>
+          </div>
+
+          <!-- Interactive Filter Pills -->
+          <div id="service-filters" class="flex flex-wrap gap-2" role="tablist" aria-label="Filter services by category">
+            <button type="button" data-filter="all" class="filter-btn active px-4 py-2 rounded-xl text-sm font-medium bg-ink text-white transition-all">
+              All Services
+            </button>
+            <button type="button" data-filter="leads" class="filter-btn px-4 py-2 rounded-xl text-sm font-medium bg-canvas text-slateMuted border border-borderSubtle hover:text-ink transition-all">
+              Lead Generation
+            </button>
+            <button type="button" data-filter="search" class="filter-btn px-4 py-2 rounded-xl text-sm font-medium bg-canvas text-slateMuted border border-borderSubtle hover:text-ink transition-all">
+              Search &amp; Local SEO
+            </button>
+            <button type="button" data-filter="brand" class="filter-btn px-4 py-2 rounded-xl text-sm font-medium bg-canvas text-slateMuted border border-borderSubtle hover:text-ink transition-all">
+              Brand &amp; Web
+            </button>
+          </div>
+        </div>
+
+        <!-- 6 Service Cards -->
+        <div id="services-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- 1) Performance Ads (Meta & Google) [Lead Generation] -->
+          <article class="service-card editorial-card rounded-2xl p-7 flex flex-col justify-between reveal" data-category="leads">
+            <div>
+              <div class="flex items-center justify-between mb-6">
+                <span class="w-11 h-11 rounded-xl bg-accentSoft text-accent flex items-center justify-center">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                  </svg>
+                </span>
+                <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-canvas text-slateMuted border border-borderSubtle">
+                  Lead Generation
+                </span>
+              </div>
+              <h3 class="font-display font-bold text-lg text-ink mb-2.5">Performance Ads (Meta &amp; Google)</h3>
+              <p class="text-slateMuted text-sm leading-relaxed mb-6">
+                Full-funnel paid acquisition campaigns built for qualified enquiries and profitable ROAS—backed by clean server-side tracking.
+              </p>
+            </div>
+            <ul class="pt-4 border-t border-borderSubtle text-xs text-slateMuted space-y-1.5">
+              <li>• High-intent Google Search &amp; Shopping campaigns</li>
+              <li>• Structured Meta creative &amp; retargeting funnels</li>
+              <li>• GA4, GTM &amp; Meta CAPI conversion attribution</li>
+            </ul>
+          </article>
+
+          <!-- 2) Local SEO & Google Business Profile [Search & Local SEO] -->
+          <article class="service-card editorial-card rounded-2xl p-7 flex flex-col justify-between reveal" data-category="search">
+            <div>
+              <div class="flex items-center justify-between mb-6">
+                <span class="w-11 h-11 rounded-xl bg-accentSoft text-accent flex items-center justify-center">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                  </svg>
+                </span>
+                <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-canvas text-slateMuted border border-borderSubtle">
+                  Search &amp; Local SEO
+                </span>
+              </div>
+              <h3 class="font-display font-bold text-lg text-ink mb-2.5">Local SEO &amp; Google Business Profile</h3>
+              <p class="text-slateMuted text-sm leading-relaxed mb-6">
+                Dominate Google Maps and local search queries in your city to drive consistent inbound phone calls and clinic or store visits.
+              </p>
+            </div>
+            <ul class="pt-4 border-t border-borderSubtle text-xs text-slateMuted space-y-1.5">
+              <li>• Top-3 Local Pack ranking &amp; category tuning</li>
+              <li>• Review generation &amp; reputation workflows</li>
+              <li>• City &amp; neighbourhood-specific landing pages</li>
+            </ul>
+          </article>
+
+          <!-- 3) Organic SEO & Content Systems [Search & Local SEO] -->
+          <article class="service-card editorial-card rounded-2xl p-7 flex flex-col justify-between reveal" data-category="search">
+            <div>
+              <div class="flex items-center justify-between mb-6">
+                <span class="w-11 h-11 rounded-xl bg-accentSoft text-accent flex items-center justify-center">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                  </svg>
+                </span>
+                <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-canvas text-slateMuted border border-borderSubtle">
+                  Search &amp; Local SEO
+                </span>
+              </div>
+              <h3 class="font-display font-bold text-lg text-ink mb-2.5">Organic SEO &amp; Content Systems</h3>
+              <p class="text-slateMuted text-sm leading-relaxed mb-6">
+                Build a compounding organic moat that lowers your long-term acquisition costs through technical excellence and buyer-intent content.
+              </p>
+            </div>
+            <ul class="pt-4 border-t border-borderSubtle text-xs text-slateMuted space-y-1.5">
+              <li>• Technical SEO audits, schema &amp; Core Web Vitals</li>
+              <li>• Bottom-of-funnel commercial content clusters</li>
+              <li>• Search Console tracking &amp; authority link building</li>
+            </ul>
+          </article>
+
+          <!-- 4) Social Media & Short-Form Reels [Brand & Web] -->
+          <article class="service-card editorial-card rounded-2xl p-7 flex flex-col justify-between reveal" data-category="brand">
+            <div>
+              <div class="flex items-center justify-between mb-6">
+                <span class="w-11 h-11 rounded-xl bg-accentSoft text-accent flex items-center justify-center">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                  </svg>
+                </span>
+                <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-canvas text-slateMuted border border-borderSubtle">
+                  Brand &amp; Web
+                </span>
+              </div>
+              <h3 class="font-display font-bold text-lg text-ink mb-2.5">Social Media &amp; Short-Form Reels</h3>
+              <p class="text-slateMuted text-sm leading-relaxed mb-6">
+                Build organic credibility and category recall with founder-led Reels, crisp educational carousels, and thumb-stopping video hooks.
+              </p>
+            </div>
+            <ul class="pt-4 border-t border-borderSubtle text-xs text-slateMuted space-y-1.5">
+              <li>• Monthly Reels scripting, editing &amp; pacing</li>
+              <li>• Instagram, YouTube Shorts &amp; LinkedIn calendars</li>
+              <li>• Paid-ad-ready UGC &amp; creative variations</li>
+            </ul>
+          </article>
+
+          <!-- 5) Conversion-First Web Design [Brand & Web] -->
+          <article class="service-card editorial-card rounded-2xl p-7 flex flex-col justify-between reveal" data-category="brand">
+            <div>
+              <div class="flex items-center justify-between mb-6">
+                <span class="w-11 h-11 rounded-xl bg-accentSoft text-accent flex items-center justify-center">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                </span>
+                <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-canvas text-slateMuted border border-borderSubtle">
+                  Brand &amp; Web
+                </span>
+              </div>
+              <h3 class="font-display font-bold text-lg text-ink mb-2.5">Conversion-First Web Design</h3>
+              <p class="text-slateMuted text-sm leading-relaxed mb-6">
+                Fast, mobile-first business websites and dedicated ad landing pages structured to turn cold clicks into booked consultations.
+              </p>
+            </div>
+            <ul class="pt-4 border-t border-borderSubtle text-xs text-slateMuted space-y-1.5">
+              <li>• Editorial UI/UX &amp; direct-response copywriting</li>
+              <li>• Sub-second mobile performance &amp; SEO markup</li>
+              <li>• WhatsApp, Google Sheets &amp; CRM lead routing</li>
+            </ul>
+          </article>
+
+          <!-- 6) Brand Identity & Creative Strategy [Brand & Web] -->
+          <article class="service-card editorial-card rounded-2xl p-7 flex flex-col justify-between reveal" data-category="brand">
+            <div>
+              <div class="flex items-center justify-between mb-6">
+                <span class="w-11 h-11 rounded-xl bg-accentSoft text-accent flex items-center justify-center">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42" />
+                  </svg>
+                </span>
+                <span class="text-xs font-medium px-2.5 py-1 rounded-full bg-canvas text-slateMuted border border-borderSubtle">
+                  Brand &amp; Web
+                </span>
+              </div>
+              <h3 class="font-display font-bold text-lg text-ink mb-2.5">Brand Identity &amp; Creative Strategy</h3>
+              <p class="text-slateMuted text-sm leading-relaxed mb-6">
+                Elevate how customers perceive your offer with cohesive visual systems, clear market positioning, and trustworthy messaging.
+              </p>
+            </div>
+            <ul class="pt-4 border-t border-borderSubtle text-xs text-slateMuted space-y-1.5">
+              <li>• Logo systems, typography &amp; brand guidelines</li>
+              <li>• Offer positioning &amp; competitor differentiation</li>
+              <li>• Cohesive ad creative &amp; pitch deck templates</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         3. CASE STUDIES SECTION (with Slide-Over Detail Drawer)
+         ====================================================================== -->
+    <section id="work" class="py-20 sm:py-28 px-5 sm:px-8">
+      <div class="max-w-6xl mx-auto">
+        <div class="max-w-2xl mb-14 reveal">
+          <p class="text-xs font-semibold uppercase tracking-widest text-accent mb-3">Selected Work</p>
+          <h2 class="font-display font-bold text-3xl sm:text-4xl text-ink tracking-tight mb-4">
+            Measured outcomes across high-competition categories.
+          </h2>
+          <p class="text-slateMuted text-base sm:text-lg">
+            Click any case study to open the full breakdown—challenge, strategy, execution, and verified metrics.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <!-- Case Study 1: D2C Skincare Brand -->
+          <button type="button" onclick="openCaseStudy(0)"
+            class="editorial-card rounded-2xl p-7 flex flex-col justify-between text-left cursor-pointer group reveal focus:outline-none focus:ring-2 focus:ring-accent">
+            <div>
+              <div class="flex items-center justify-between text-xs font-medium text-slateMuted mb-6">
+                <span>D2C Skincare • Pan-India</span>
+                <span>90 Days</span>
+              </div>
+              <p class="font-display font-bold text-3xl sm:text-4xl text-accent tracking-tight mb-1.5">4.4x</p>
+              <p class="text-sm font-semibold text-ink mb-4">Blended Return on Ad Spend</p>
+              <h3 class="font-display font-bold text-lg text-ink mb-2 group-hover:text-accent transition-colors">
+                KayaBotanica Skincare
+              </h3>
+              <p class="text-sm text-slateMuted leading-relaxed mb-6">
+                Replaced fatigued static ads with dermatologist-backed short-form Reels, Advantage+ catalog retargeting, and a faster mobile PDP.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-borderSubtle w-full flex items-center justify-between text-sm font-medium text-ink">
+              <span>Inspect Breakdown</span>
+              <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </div>
+          </button>
+
+          <!-- Case Study 2: Multi-Speciality Dental Clinic in Lucknow -->
+          <button type="button" onclick="openCaseStudy(1)"
+            class="editorial-card rounded-2xl p-7 flex flex-col justify-between text-left cursor-pointer group reveal focus:outline-none focus:ring-2 focus:ring-accent">
+            <div>
+              <div class="flex items-center justify-between text-xs font-medium text-slateMuted mb-6">
+                <span>Healthcare • Gomti Nagar, Lucknow</span>
+                <span>5 Months</span>
+              </div>
+              <p class="font-display font-bold text-3xl sm:text-4xl text-accent tracking-tight mb-1.5">+240%</p>
+              <p class="text-sm font-semibold text-ink mb-4">Monthly Implant &amp; Aligner Consults</p>
+              <h3 class="font-display font-bold text-lg text-ink mb-2 group-hover:text-accent transition-colors">
+                Aurelia Multi-Speciality Dental Studio
+              </h3>
+              <p class="text-sm text-slateMuted leading-relaxed mb-6">
+                Ranked #1 on Google Maps across 12 high-value dental queries in Lucknow and launched treatment-specific search funnels.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-borderSubtle w-full flex items-center justify-between text-sm font-medium text-ink">
+              <span>Inspect Breakdown</span>
+              <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </div>
+          </button>
+
+          <!-- Case Study 3: EdTech Coaching Institute -->
+          <button type="button" onclick="openCaseStudy(2)"
+            class="editorial-card rounded-2xl p-7 flex flex-col justify-between text-left cursor-pointer group reveal focus:outline-none focus:ring-2 focus:ring-accent">
+            <div>
+              <div class="flex items-center justify-between text-xs font-medium text-slateMuted mb-6">
+                <span>EdTech &amp; Coaching • UP &amp; Pan-India</span>
+                <span>4 Months</span>
+              </div>
+              <p class="font-display font-bold text-3xl sm:text-4xl text-accent tracking-tight mb-1.5">-44%</p>
+              <p class="text-sm font-semibold text-ink mb-4">Lower Cost Per Enrolled Student</p>
+              <h3 class="font-display font-bold text-lg text-ink mb-2 group-hover:text-accent transition-colors">
+                Northstar Competitive Academy
+              </h3>
+              <p class="text-sm text-slateMuted leading-relaxed mb-6">
+                Switched from unfiltered lead forms to a fast scholarship &amp; batch eligibility funnel paired with exact-match Google Search ads.
+              </p>
+            </div>
+            <div class="pt-4 border-t border-borderSubtle w-full flex items-center justify-between text-sm font-medium text-ink">
+              <span>Inspect Breakdown</span>
+              <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         4. ABOUT BRAND BUYO & 4-STEP PROCESS SECTION ('How We Work')
+         ====================================================================== -->
+    <section id="process" class="py-20 sm:py-28 px-5 sm:px-8 bg-white border-y border-borderSubtle">
+      <div class="max-w-6xl mx-auto">
+        <!-- Editorial About Block -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start pb-16 mb-16 border-b border-borderSubtle reveal">
+          <div class="lg:col-span-5">
+            <p class="text-xs font-semibold uppercase tracking-widest text-accent mb-3">About Brand Buyo</p>
+            <h2 class="font-display font-bold text-3xl sm:text-4xl text-ink tracking-tight leading-tight">
+              Senior-led execution. Zero vanity metrics.
+            </h2>
+          </div>
+          <div class="lg:col-span-7 space-y-4 text-base sm:text-lg text-slateMuted leading-relaxed">
+            <p>
+              Most agencies hand your account to junior coordinators and celebrate likes, reach, and impressions that never touch your bank account. At <strong class="text-ink font-semibold">Brand Buyo</strong>, every engagement is led by senior performance strategists, copywriters, and conversion designers.
+            </p>
+            <p>
+              Headquartered in Lucknow and serving growth-focused businesses across India, we operate as an embedded revenue partner—giving you direct account ownership, live reporting dashboards, and clear weekly accountability tied to qualified leads, bookings, and sales.
+            </p>
+          </div>
+        </div>
+
+        <!-- 4-Step Structured Workflow -->
+        <div class="mb-10 reveal">
+          <p class="text-xs font-semibold uppercase tracking-widest text-accent mb-2">How We Work</p>
+          <h3 class="font-display font-bold text-2xl sm:text-3xl text-ink tracking-tight">
+            A disciplined 4-step operating rhythm.
+          </h3>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Step 01 -->
+          <div class="bg-canvas border border-borderSubtle rounded-2xl p-7 reveal">
+            <span class="inline-block font-display font-bold text-sm text-accent bg-accentSoft px-3 py-1 rounded-lg mb-5">01</span>
+            <h4 class="font-display font-bold text-lg text-ink mb-2.5">Audit &amp; Benchmarks</h4>
+            <p class="text-sm text-slateMuted leading-relaxed">
+              Deep dive into your existing ad accounts, tracking accuracy, funnel leaks, and local or organic search visibility.
+            </p>
+          </div>
+
+          <!-- Step 02 -->
+          <div class="bg-canvas border border-borderSubtle rounded-2xl p-7 reveal">
+            <span class="inline-block font-display font-bold text-sm text-accent bg-accentSoft px-3 py-1 rounded-lg mb-5">02</span>
+            <h4 class="font-display font-bold text-lg text-ink mb-2.5">Growth Roadmap</h4>
+            <p class="text-sm text-slateMuted leading-relaxed">
+              Clear channel mix, unit economics modeling, budget allocation, and realistic 90-day KPI targets before spending a rupee.
+            </p>
+          </div>
+
+          <!-- Step 03 -->
+          <div class="bg-canvas border border-borderSubtle rounded-2xl p-7 reveal">
+            <span class="inline-block font-display font-bold text-sm text-accent bg-accentSoft px-3 py-1 rounded-lg mb-5">03</span>
+            <h4 class="font-display font-bold text-lg text-ink mb-2.5">Execution &amp; Creative Sprints</h4>
+            <p class="text-sm text-slateMuted leading-relaxed">
+              Structured ad launches, high-converting landing pages, technical SEO fixes, and high-retention short-form creatives.
+            </p>
+          </div>
+
+          <!-- Step 04 -->
+          <div class="bg-canvas border border-borderSubtle rounded-2xl p-7 reveal">
+            <span class="inline-block font-display font-bold text-sm text-accent bg-accentSoft px-3 py-1 rounded-lg mb-5">04</span>
+            <h4 class="font-display font-bold text-lg text-ink mb-2.5">Scale &amp; Transparent Reporting</h4>
+            <p class="text-sm text-slateMuted leading-relaxed">
+              Weekly bid and creative optimization, live Looker/Sheets dashboards, and methodical scaling of winning campaigns.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         5. CLIENT TESTIMONIALS SECTION
+         ====================================================================== -->
+    <section class="py-20 sm:py-28 px-5 sm:px-8">
+      <div class="max-w-6xl mx-auto">
+        <div class="max-w-2xl mb-14 reveal">
+          <p class="text-xs font-semibold uppercase tracking-widest text-accent mb-3">Client Perspectives</p>
+          <h2 class="font-display font-bold text-3xl sm:text-4xl text-ink tracking-tight">
+            Trusted by founders, doctors, and operators across India.
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Testimonial 1 -->
+          <figure class="editorial-card rounded-2xl p-7 flex flex-col justify-between reveal">
+            <div>
+              <!-- 5 Subtle Emerald Stars -->
+              <div class="flex items-center gap-1 text-accent mb-5" aria-label="5 out of 5 stars">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              </div>
+              <blockquote class="text-sm sm:text-[15px] text-ink leading-relaxed mb-6">
+                “Before Brand Buyo, we were spending heavily on Practo and broad ads with inconsistent patient quality. Within four months, our Google Maps profile and search landing pages became our #1 source of implant consultations.”
+              </blockquote>
+            </div>
+            <figcaption class="pt-4 border-t border-borderSubtle">
+              <p class="font-display font-bold text-sm text-ink">Dr. Siddharth Mehrotra</p>
+              <p class="text-xs text-slateMuted mt-0.5">Founder, Multi-Speciality Dental Clinic • Lucknow</p>
+            </figcaption>
+          </figure>
+
+          <!-- Testimonial 2 -->
+          <figure class="editorial-card rounded-2xl p-7 flex flex-col justify-between reveal">
+            <div>
+              <div class="flex items-center gap-1 text-accent mb-5" aria-label="5 out of 5 stars">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              </div>
+              <blockquote class="text-sm sm:text-[15px] text-ink leading-relaxed mb-6">
+                “Their clarity on unit economics is rare. Instead of pitching flashy campaigns, they fixed our product page speed, tightened our Meta retargeting, and took our blended ROAS above 4x within a single quarter.”
+              </blockquote>
+            </div>
+            <figcaption class="pt-4 border-t border-borderSubtle">
+              <p class="font-display font-bold text-sm text-ink">Ananya Deshmukh</p>
+              <p class="text-xs text-slateMuted mt-0.5">Co-Founder, D2C Skincare Brand • Mumbai &amp; Pan-India</p>
+            </figcaption>
+          </figure>
+
+          <!-- Testimonial 3 -->
+          <figure class="editorial-card rounded-2xl p-7 flex flex-col justify-between reveal">
+            <div>
+              <div class="flex items-center gap-1 text-accent mb-5" aria-label="5 out of 5 stars">
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              </div>
+              <blockquote class="text-sm sm:text-[15px] text-ink leading-relaxed mb-6">
+                “Our admission counselors used to waste hours calling junk leads. Brand Buyo redesigned our enquiry flow and search targeting—cutting our cost per enrolled student nearly in half.”
+              </blockquote>
+            </div>
+            <figcaption class="pt-4 border-t border-borderSubtle">
+              <p class="font-display font-bold text-sm text-ink">Raghavendra Tiwari</p>
+              <p class="text-xs text-slateMuted mt-0.5">Director, EdTech Coaching Institute • Lucknow &amp; NCR</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         6. LIVE INR GROWTH & BUDGET ESTIMATOR
+         ====================================================================== -->
+    <section id="estimator" class="py-20 sm:py-28 px-5 sm:px-8 bg-white border-y border-borderSubtle">
+      <div class="max-w-6xl mx-auto">
+        <div class="max-w-2xl mb-12 reveal">
+          <p class="text-xs font-semibold uppercase tracking-widest text-accent mb-3">Interactive Planning Tool</p>
+          <h2 class="font-display font-bold text-3xl sm:text-4xl text-ink tracking-tight mb-3">
+            Live INR Growth &amp; Budget Estimator
+          </h2>
+          <p class="text-slateMuted text-base sm:text-lg">
+            Select your primary objective and monthly budget to preview realistic 30-day projections, recommended channel allocation, and expected ramp timeline.
+          </p>
+        </div>
+
+        <div class="bg-canvas border border-borderSubtle rounded-3xl p-6 sm:p-10 lg:p-12 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center reveal">
+          <!-- Left Controls (7 cols) -->
+          <div class="lg:col-span-7 space-y-8">
+            <!-- Step 1: Primary Goal -->
+            <div>
+              <label class="block text-sm font-semibold text-ink mb-3">1. Select Your Primary Goal</label>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3" id="goal-selector">
+                <button type="button" data-goal="leads" class="goal-option active p-3.5 rounded-xl border-2 border-ink bg-white text-left transition-all">
+                  <span class="block font-display font-bold text-sm text-ink">Qualified Leads</span>
+                  <span class="block text-xs text-slateMuted mt-0.5">B2B, coaching &amp; high-ticket services</span>
+                </button>
+                <button type="button" data-goal="ecommerce" class="goal-option p-3.5 rounded-xl border border-borderSubtle bg-white text-left hover:border-gray-300 transition-all">
+                  <span class="block font-display font-bold text-sm text-ink">E-commerce Sales</span>
+                  <span class="block text-xs text-slateMuted mt-0.5">Direct online store orders &amp; ROAS</span>
+                </button>
+                <button type="button" data-goal="local" class="goal-option p-3.5 rounded-xl border border-borderSubtle bg-white text-left hover:border-gray-300 transition-all">
+                  <span class="block font-display font-bold text-sm text-ink">Local Footfall &amp; Calls</span>
+                  <span class="block text-xs text-slateMuted mt-0.5">Clinics, studios &amp; city stores</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Step 2: Monthly Budget Slider (₹25,000 – ₹5,00,000) -->
+            <div>
+              <div class="flex items-baseline justify-between mb-3">
+                <label for="budget-slider" class="text-sm font-semibold text-ink">2. Monthly Marketing Budget</label>
+                <span id="budget-display" class="font-display font-bold text-2xl sm:text-3xl text-accent">₹75,000</span>
+              </div>
+              <input id="budget-slider" type="range" min="25000" max="500000" step="5000" value="75000" aria-label="Monthly marketing budget in INR" />
+              <div class="flex justify-between text-xs text-slateMuted mt-2">
+                <span>₹25,000</span>
+                <span>₹2,50,000</span>
+                <span>₹5,00,000</span>
+              </div>
+            </div>
+
+            <!-- Recommended 3-Channel Split Bar -->
+            <div class="pt-1 space-y-3">
+              <div class="flex items-center justify-between text-xs font-medium text-slateMuted">
+                <span>Recommended Channel Split</span>
+                <span id="timeline-badge" class="text-accent font-semibold bg-accentSoft px-2.5 py-0.5 rounded-full">
+                  Initial Traction: 2–4 Weeks
+                </span>
+              </div>
+              <div class="w-full h-3 rounded-full bg-gray-200 overflow-hidden flex">
+                <div id="mix-bar-1" class="bg-ink h-full transition-all duration-300" style="width: 55%"></div>
+                <div id="mix-bar-2" class="bg-accent h-full transition-all duration-300" style="width: 25%"></div>
+                <div id="mix-bar-3" class="bg-teal-300 h-full transition-all duration-300" style="width: 20%"></div>
+              </div>
+              <div class="flex flex-wrap gap-x-5 gap-y-2 text-xs text-slateMuted">
+                <span class="inline-flex items-center gap-1.5">
+                  <span class="w-2.5 h-2.5 rounded-full bg-ink"></span>
+                  <span id="mix-label-1">55% Meta &amp; Google Ads</span>
+                </span>
+                <span class="inline-flex items-center gap-1.5">
+                  <span class="w-2.5 h-2.5 rounded-full bg-accent"></span>
+                  <span id="mix-label-2">25% SEO &amp; Content</span>
+                </span>
+                <span class="inline-flex items-center gap-1.5">
+                  <span class="w-2.5 h-2.5 rounded-full bg-teal-300"></span>
+                  <span id="mix-label-3">20% Landing Page CRO</span>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Projection Card (5 cols) -->
+          <div class="lg:col-span-5 bg-white border border-borderSubtle rounded-2xl p-6 sm:p-8 shadow-xs">
+            <p class="text-xs font-semibold uppercase tracking-wider text-slateMuted mb-6">Estimated 30-Day Output</p>
+
+            <div class="space-y-6">
+              <div>
+                <p id="metric-primary-label" class="text-xs text-slateMuted mb-1">Estimated Monthly Qualified Leads</p>
+                <p id="metric-primary-value" class="font-display font-bold text-3xl sm:text-4xl text-ink tracking-tight">95 – 130</p>
+              </div>
+
+              <div class="grid grid-cols-2 gap-4 pt-5 border-t border-borderSubtle">
+                <div>
+                  <p class="text-xs text-slateMuted mb-1">Targeted Reach</p>
+                  <p id="metric-reach-value" class="font-display font-bold text-lg text-ink">95k – 135k</p>
+                </div>
+                <div>
+                  <p id="metric-efficiency-label" class="text-xs text-slateMuted mb-1">Projected CPL Range</p>
+                  <p id="metric-efficiency-value" class="font-display font-bold text-lg text-accent">₹580 – ₹790</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <button type="button" id="lock-plan-btn"
+                class="w-full py-3.5 px-5 rounded-xl bg-ink text-white text-sm font-medium hover:bg-accent transition-colors">
+                Lock In This Plan →
+              </button>
+              <p class="text-[11px] text-slateMuted text-center mt-3">
+                Estimates based on Indian &amp; regional campaign benchmarks.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         7. FAQ SECTION (Interactive Smooth Accordion)
+         ====================================================================== -->
+    <section id="faq" class="py-20 sm:py-28 px-5 sm:px-8">
+      <div class="max-w-4xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-14 reveal">
+          <p class="text-xs font-semibold uppercase tracking-widest text-accent mb-3">Common Questions</p>
+          <h2 class="font-display font-bold text-3xl sm:text-4xl text-ink tracking-tight">
+            Clear answers before we get started.
+          </h2>
+        </div>
+
+        <div class="space-y-3 reveal" id="faq-accordion">
+          <!-- FAQ 1 -->
+          <div class="faq-item bg-white border border-borderSubtle rounded-2xl transition-colors">
+            <button type="button" class="faq-trigger w-full px-6 py-5 flex items-center justify-between gap-4 text-left focus:outline-none" aria-expanded="false">
+              <span class="font-display font-semibold text-base sm:text-lg text-ink">
+                What is the minimum monthly budget to work with Brand Buyo?
+              </span>
+              <span class="faq-icon w-7 h-7 rounded-lg bg-canvas border border-borderSubtle flex items-center justify-center text-ink shrink-0">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 5v14M5 12h14" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-inner px-6 pb-5 text-sm sm:text-base text-slateMuted leading-relaxed">
+                For meaningful testing and measurable ROI, we typically recommend a minimum combined marketing budget of ₹25,000–₹35,000 per month for local service businesses and clinics, and ₹60,000+ per month for Pan-India D2C or competitive lead-generation campaigns.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item bg-white border border-borderSubtle rounded-2xl transition-colors">
+            <button type="button" class="faq-trigger w-full px-6 py-5 flex items-center justify-between gap-4 text-left focus:outline-none" aria-expanded="false">
+              <span class="font-display font-semibold text-base sm:text-lg text-ink">
+                Is my ad spend included in your agency retainer fee?
+              </span>
+              <span class="faq-icon w-7 h-7 rounded-lg bg-canvas border border-borderSubtle flex items-center justify-center text-ink shrink-0">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 5v14M5 12h14" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-inner px-6 pb-5 text-sm sm:text-base text-slateMuted leading-relaxed">
+                No—and that protects your transparency. Your ad spend is billed directly by Meta or Google to your own ad account and card, so you retain 100% ownership of your data, audiences, and invoices. Our agency retainer covers strategy, creative production, campaign management, and reporting.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item bg-white border border-borderSubtle rounded-2xl transition-colors">
+            <button type="button" class="faq-trigger w-full px-6 py-5 flex items-center justify-between gap-4 text-left focus:outline-none" aria-expanded="false">
+              <span class="font-display font-semibold text-base sm:text-lg text-ink">
+                Do you require a long-term lock-in contract?
+              </span>
+              <span class="faq-icon w-7 h-7 rounded-lg bg-canvas border border-borderSubtle flex items-center justify-center text-ink shrink-0">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 5v14M5 12h14" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-inner px-6 pb-5 text-sm sm:text-base text-slateMuted leading-relaxed">
+                We do not believe in trapping clients in 12-month lock-ins. We start with an initial 90-day sprint to properly build, test, and optimize your acquisition system, followed by flexible month-to-month retainers with a simple 30-day notice period.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item bg-white border border-borderSubtle rounded-2xl transition-colors">
+            <button type="button" class="faq-trigger w-full px-6 py-5 flex items-center justify-between gap-4 text-left focus:outline-none" aria-expanded="false">
+              <span class="font-display font-semibold text-base sm:text-lg text-ink">
+                How soon can we expect to see measurable results?
+              </span>
+              <span class="faq-icon w-7 h-7 rounded-lg bg-canvas border border-borderSubtle flex items-center justify-center text-ink shrink-0">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 5v14M5 12h14" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-inner px-6 pb-5 text-sm sm:text-base text-slateMuted leading-relaxed">
+                Paid campaigns (Google Search and Meta Ads) begin generating leads or orders within the first 7–14 days of launch, with cost efficiency stabilizing across weeks 4–8. Local SEO and Google Maps improvements typically show noticeable call growth in 45–60 days, while Organic SEO compounds steadily over 3–6 months.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item bg-white border border-borderSubtle rounded-2xl transition-colors">
+            <button type="button" class="faq-trigger w-full px-6 py-5 flex items-center justify-between gap-4 text-left focus:outline-none" aria-expanded="false">
+              <span class="font-display font-semibold text-base sm:text-lg text-ink">
+                Do you only work with businesses in Lucknow, or across India?
+              </span>
+              <span class="faq-icon w-7 h-7 rounded-lg bg-canvas border border-borderSubtle flex items-center justify-center text-ink shrink-0">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 5v14M5 12h14" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-content">
+              <div class="faq-inner px-6 pb-5 text-sm sm:text-base text-slateMuted leading-relaxed">
+                While our studio is based in Lucknow (Uttar Pradesh), we partner with clinics, D2C brands, coaching institutes, and B2B companies across Delhi NCR, Mumbai, Bengaluru, and Pan-India—with seamless weekly video reviews and real-time WhatsApp/Slack collaboration.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         8. CONTACT & ENQUIRY SECTION (2-Column + Google Apps Script Ready)
+         ====================================================================== -->
+    <section id="contact" class="py-20 sm:py-28 px-5 sm:px-8 bg-white border-t border-borderSubtle">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+        <!-- Left Column: Direct Contact Details & Socials (5 cols) -->
+        <div class="lg:col-span-5 reveal">
+          <p class="text-xs font-semibold uppercase tracking-widest text-accent mb-3">Start a Conversation</p>
+          <h2 class="font-display font-bold text-3xl sm:text-4xl text-ink tracking-tight mb-5">
+            Request your complimentary growth audit.
+          </h2>
+          <p class="text-slateMuted text-base leading-relaxed mb-8">
+            Tell us about your business goals and current bottlenecks. Our strategy team will review your digital footprint and connect within 1 business day with a clear 90-day roadmap.
+          </p>
+
+          <!-- Direct Contact Card -->
+          <div class="space-y-5 p-6 rounded-2xl bg-canvas border border-borderSubtle mb-8">
+            <div class="flex items-start gap-3.5">
+              <span class="w-9 h-9 rounded-lg bg-white border border-borderSubtle text-accent flex items-center justify-center shrink-0">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                </svg>
+              </span>
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-wider text-slateMuted">Phone / WhatsApp</p>
+                <a href="tel:+917983407812" class="text-sm font-semibold text-ink hover:text-accent transition-colors">
+                  +91 79834 07812
+                </a>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5">
+              <span class="w-9 h-9 rounded-lg bg-white border border-borderSubtle text-accent flex items-center justify-center shrink-0">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                </svg>
+              </span>
+              <div class="min-w-0">
+                <p class="text-xs font-semibold uppercase tracking-wider text-slateMuted">Email</p>
+                <a href="mailto:businessmarketing2027@gmail.com" class="text-sm font-semibold text-ink hover:text-accent transition-colors break-all">
+                  businessmarketing2027@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3.5">
+              <span class="w-9 h-9 rounded-lg bg-white border border-borderSubtle text-accent flex items-center justify-center shrink-0">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                </svg>
+              </span>
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-wider text-slateMuted">Office Address</p>
+                <p class="text-sm font-medium text-ink">
+                  Lucknow, Uttar Pradesh, India – 226010
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Monochrome SVG Social Links -->
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-wider text-slateMuted mb-3">Connect With Brand Buyo</p>
+            <div class="flex items-center gap-3">
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Brand Buyo on Instagram"
+                class="w-10 h-10 rounded-xl bg-canvas border border-borderSubtle text-slateMuted hover:text-ink hover:border-gray-300 flex items-center justify-center transition-colors">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+              </a>
+              <a href="https://in.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="Brand Buyo on LinkedIn"
+                class="w-10 h-10 rounded-xl bg-canvas border border-borderSubtle text-slateMuted hover:text-ink hover:border-gray-300 flex items-center justify-center transition-colors">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </a>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="Brand Buyo on YouTube"
+                class="w-10 h-10 rounded-xl bg-canvas border border-borderSubtle text-slateMuted hover:text-ink hover:border-gray-300 flex items-center justify-center transition-colors">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+              </a>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Brand Buyo on Facebook"
+                class="w-10 h-10 rounded-xl bg-canvas border border-borderSubtle text-slateMuted hover:text-ink hover:border-gray-300 flex items-center justify-center transition-colors">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Clean Enquiry Form (7 cols) -->
+        <div class="lg:col-span-7 reveal">
+          <div class="bg-canvas border border-borderSubtle rounded-3xl p-6 sm:p-10">
+            <form id="enquiry-form" class="space-y-5" novalidate>
+              <!-- Hidden field populated automatically when user locks in Estimator Plan -->
+              <input type="hidden" id="estimatorSummary" name="estimatorSummary" value="" />
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="fullName" class="block text-xs font-semibold uppercase tracking-wider text-ink mb-2">Full Name *</label>
+                  <input type="text" id="fullName" name="fullName" required placeholder="Aarav Verma"
+                    class="w-full px-4 py-3 rounded-xl bg-white border border-borderSubtle text-sm text-ink placeholder-gray-400 focus:outline-none focus:border-ink transition-colors" />
+                </div>
+                <div>
+                  <label for="phone" class="block text-xs font-semibold uppercase tracking-wider text-ink mb-2">Phone / WhatsApp *</label>
+                  <input type="tel" id="phone" name="phone" required placeholder="+91 79834 07812"
+                    class="w-full px-4 py-3 rounded-xl bg-white border border-borderSubtle text-sm text-ink placeholder-gray-400 focus:outline-none focus:border-ink transition-colors" />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="email" class="block text-xs font-semibold uppercase tracking-wider text-ink mb-2">Email Address *</label>
+                  <input type="email" id="email" name="email" required placeholder="you@company.com"
+                    class="w-full px-4 py-3 rounded-xl bg-white border border-borderSubtle text-sm text-ink placeholder-gray-400 focus:outline-none focus:border-ink transition-colors" />
+                </div>
+                <div>
+                  <label for="business" class="block text-xs font-semibold uppercase tracking-wider text-ink mb-2">Business Name / Website *</label>
+                  <input type="text" id="business" name="business" required placeholder="yourbrand.in"
+                    class="w-full px-4 py-3 rounded-xl bg-white border border-borderSubtle text-sm text-ink placeholder-gray-400 focus:outline-none focus:border-ink transition-colors" />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                <div>
+                  <label for="serviceInterest" class="block text-xs font-semibold uppercase tracking-wider text-ink mb-2">Service Interest</label>
+                  <select id="serviceInterest" name="serviceInterest"
+                    class="w-full px-4 py-3 rounded-xl bg-white border border-borderSubtle text-sm text-ink focus:outline-none focus:border-ink transition-colors">
+                    <option value="Performance Ads (Qualified Leads)">Performance Ads (Qualified Leads)</option>
+                    <option value="E-commerce Scaling (Meta & Google)">E-commerce Scaling (Meta &amp; Google)</option>
+                    <option value="Local SEO & Google Maps Growth">Local SEO &amp; Google Maps Growth</option>
+                    <option value="Organic SEO & Content Systems">Organic SEO &amp; Content Systems</option>
+                    <option value="Social Media & Short-Form Reels">Social Media &amp; Short-Form Reels</option>
+                    <option value="Conversion Web Design & Branding">Conversion Web Design &amp; Branding</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="monthlyBudget" class="block text-xs font-semibold uppercase tracking-wider text-ink mb-2">Monthly Budget</label>
+                  <select id="monthlyBudget" name="monthlyBudget"
+                    class="w-full px-4 py-3 rounded-xl bg-white border border-borderSubtle text-sm text-ink focus:outline-none focus:border-ink transition-colors">
+                    <option value="₹25,000 – ₹50,000 / month">₹25,000 – ₹50,000 / month</option>
+                    <option value="₹50,000 – ₹1,50,000 / month" selected>₹50,000 – ₹1,50,000 / month</option>
+                    <option value="₹1,50,000 – ₹3,00,000 / month">₹1,50,000 – ₹3,00,000 / month</option>
+                    <option value="₹3,00,000 – ₹5,00,000+ / month">₹3,00,000 – ₹5,00,000+ / month</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label for="projectBrief" class="block text-xs font-semibold uppercase tracking-wider text-ink mb-2">Project Brief</label>
+                <textarea id="projectBrief" name="projectBrief" rows="4" placeholder="Share your target audience, current monthly revenue/leads, or what you'd like to achieve in the next 90 days..."
+                  class="w-full px-4 py-3 rounded-xl bg-white border border-borderSubtle text-sm text-ink placeholder-gray-400 focus:outline-none focus:border-ink transition-colors"></textarea>
+              </div>
+
+              <!-- Inline Validation Message -->
+              <div id="form-error" class="hidden p-3.5 rounded-xl bg-red-50 border border-red-200 text-xs font-medium text-red-700">
+                Please fill in your name, phone number, email address, and business name.
+              </div>
+
+              <button type="submit" id="submit-btn"
+                class="w-full py-4 px-6 rounded-xl bg-ink text-white font-medium text-sm sm:text-base hover:bg-accent transition-colors shadow-xs">
+                Send Enquiry &amp; Request Audit
+              </button>
+              <p class="text-[11px] text-slateMuted text-center">
+                By submitting, you agree to our
+                <button type="button" onclick="openLegalModal('privacy')" class="underline hover:text-ink">Privacy Policy</button>.
+                We never share your data.
+              </p>
+            </form>
+
+            <!-- Success Confirmation State -->
+            <div id="form-success" class="hidden py-12 text-center space-y-4">
+              <div class="w-12 h-12 rounded-full bg-accentSoft text-accent mx-auto flex items-center justify-center">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <h3 class="font-display font-bold text-2xl text-ink">Enquiry Received</h3>
+              <p id="form-success-msg" class="text-sm text-slateMuted max-w-md mx-auto leading-relaxed">
+                Thank you for reaching out to Brand Buyo. Our strategy team is reviewing your brief and will connect via phone or email within 1 business day.
+              </p>
+              <button type="button" id="reset-form-btn"
+                class="mt-3 inline-flex px-5 py-2.5 rounded-xl border border-borderSubtle bg-white text-xs font-medium text-ink hover:bg-gray-50 transition-colors">
+                Submit Another Enquiry
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       9. CLEAN FOOTER
+       ======================================================================== -->
+  <footer class="bg-canvas border-t border-borderSubtle py-14 px-5 sm:px-8">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-borderSubtle">
+      <!-- Brand Column (5 cols) -->
+      <div class="md:col-span-5">
+        <a href="#" class="flex items-center gap-3 mb-4 group">
+          <span class="w-8 h-8 rounded-lg bg-ink group-hover:bg-accent transition-colors flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M7.5 10.5V25.5M7.5 10.5H12.8C14.6 10.5 15.8 11.6 15.8 13.4C15.8 15.2 14.6 16.3 12.8 16.3H7.5M7.5 16.3H13.3C15.3 16.3 16.6 17.6 16.6 19.9C16.6 22.3 15.3 25.5 13.3 25.5H7.5" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M19.8 10.5V25.5M19.8 10.5H25.1C26.9 10.5 28.1 11.6 28.1 13.4C28.1 15.2 26.9 16.3 25.1 16.3H19.8M19.8 16.3H25.6C27.6 16.3 28.9 17.6 28.9 19.9C28.9 22.3 27.6 25.5 25.6 25.5H19.8" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </span>
+          <span class="font-display font-bold text-base tracking-tight text-ink">
+            Brand <span class="text-slateMuted font-semibold">Buyo</span>
+          </span>
+        </a>
+        <p class="text-sm text-slateMuted leading-relaxed max-w-xs mb-6">
+          Performance marketing, local search dominance, and conversion web architecture built for ambitious brands across Lucknow and India.
+        </p>
+        <div class="flex items-center gap-2.5">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"
+            class="w-9 h-9 rounded-lg bg-white border border-borderSubtle text-slateMuted hover:text-ink hover:border-gray-300 flex items-center justify-center transition-colors">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+          </a>
+          <a href="https://in.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
+            class="w-9 h-9 rounded-lg bg-white border border-borderSubtle text-slateMuted hover:text-ink hover:border-gray-300 flex items-center justify-center transition-colors">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+          </a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube"
+            class="w-9 h-9 rounded-lg bg-white border border-borderSubtle text-slateMuted hover:text-ink hover:border-gray-300 flex items-center justify-center transition-colors">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+          </a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
+            class="w-9 h-9 rounded-lg bg-white border border-borderSubtle text-slateMuted hover:text-ink hover:border-gray-300 flex items-center justify-center transition-colors">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Navigation (3 cols) -->
+      <div class="md:col-span-3">
+        <p class="text-xs font-semibold uppercase tracking-wider text-ink mb-4">Navigation</p>
+        <ul class="space-y-2.5 text-sm text-slateMuted">
+          <li><a href="#services" class="hover:text-ink transition-colors">Services</a></li>
+          <li><a href="#work" class="hover:text-ink transition-colors">Case Studies</a></li>
+          <li><a href="#process" class="hover:text-ink transition-colors">How We Work</a></li>
+          <li><a href="#estimator" class="hover:text-ink transition-colors">Growth Estimator</a></li>
+          <li><a href="#faq" class="hover:text-ink transition-colors">FAQ</a></li>
+          <li><a href="#contact" class="hover:text-ink transition-colors">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Details (4 cols) -->
+      <div class="md:col-span-4">
+        <p class="text-xs font-semibold uppercase tracking-wider text-ink mb-4">Contact &amp; Office</p>
+        <ul class="space-y-2.5 text-sm text-slateMuted">
+          <li><a href="tel:+917983407812" class="hover:text-ink transition-colors">+91 79834 07812</a></li>
+          <li><a href="mailto:businessmarketing2027@gmail.com" class="hover:text-ink transition-colors break-all">businessmarketing2027@gmail.com</a></li>
+          <li>Lucknow, Uttar Pradesh, India – 226010</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="max-w-6xl mx-auto pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slateMuted">
+      <p>© 2026 Brand Buyo. All rights reserved.</p>
+      <div class="flex gap-6">
+        <button type="button" onclick="openLegalModal('privacy')" class="hover:text-ink transition-colors">Privacy Policy</button>
+        <button type="button" onclick="openLegalModal('terms')" class="hover:text-ink transition-colors">Terms of Service</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       10. FLOATING WHATSAPP BUTTON (Bottom-Right)
+       ======================================================================== -->
+  <a href="https://wa.me/917983407812?text=Hi%20Brand%20Buyo%2C%20I%27d%20like%20to%20discuss%20growth%20for%20my%20business."
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Chat with Brand Buyo on WhatsApp"
+     class="fixed bottom-5 right-5 z-40 inline-flex items-center gap-2.5 px-4 py-3 rounded-full bg-ink text-white text-xs sm:text-sm font-medium shadow-lg hover:bg-accent transition-all duration-200 hover:-translate-y-0.5">
+    <svg class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12.031 2C6.506 2 2.01 6.494 2.01 12.02c0 1.766.462 3.49 1.339 5.008L2 22l5.106-1.339a9.975 9.975 0 004.925 1.298h.004c5.524 0 10.02-4.494 10.02-10.02A9.956 9.956 0 0019.124 4.93 9.96 9.96 0 0012.031 2zm5.828 14.13c-.246.692-1.431 1.326-1.99 1.41-.513.076-1.178.108-1.903-.122-.442-.141-1.01-.328-1.737-.642-3.058-1.32-5.055-4.402-5.208-4.606-.152-.204-1.242-1.653-1.242-3.153 0-1.5.786-2.238 1.066-2.543.279-.305.61-.381.813-.381.203 0 .407.002.584.011.187.009.439-.071.686.524.254.611.864 2.111.94 2.264.076.153.127.331.025.534-.102.203-.152.331-.305.509-.152.178-.321.397-.457.534-.152.152-.311.318-.134.623.178.305.79 1.304 1.696 2.111 1.166 1.04 2.148 1.363 2.453 1.515.305.153.483.127.661-.076.178-.204.762-.891.966-1.196.203-.305.407-.254.686-.153.28.102 1.778.839 2.083.991.305.153.508.229.584.356.077.127.077.737-.17 1.429z"/>
+    </svg>
+    <span class="hidden sm:inline">WhatsApp Us</span>
+  </a>
+
+  <!-- ========================================================================
+       CASE STUDY SLIDE-OVER DETAIL DRAWER
+       ======================================================================== -->
+  <div id="case-drawer" class="drawer-backdrop fixed inset-0 z-50 bg-black/40 flex justify-end" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+    <div class="drawer-panel w-full max-w-lg bg-white h-full overflow-y-auto p-6 sm:p-10 flex flex-col justify-between shadow-2xl">
+      <div>
+        <div class="flex items-center justify-between pb-6 border-b border-borderSubtle">
+          <span id="drawer-category" class="text-xs font-semibold uppercase tracking-wider text-accent">Category</span>
+          <button id="close-drawer-btn" type="button" aria-label="Close case study details"
+            class="p-2 rounded-xl border border-borderSubtle hover:bg-gray-50 text-ink transition-colors">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="py-6">
+          <p id="drawer-metric" class="font-display font-bold text-4xl text-accent tracking-tight mb-1">4.4x</p>
+          <p id="drawer-metric-label" class="text-sm font-semibold text-ink mb-6">Blended Return on Ad Spend</p>
+
+          <h3 id="drawer-title" class="font-display font-bold text-2xl text-ink mb-5">Client Title</h3>
+
+          <div class="space-y-5 text-sm sm:text-base text-slateMuted leading-relaxed">
+            <div>
+              <h4 class="text-xs font-semibold uppercase tracking-wider text-ink mb-1.5">Challenge</h4>
+              <p id="drawer-challenge"></p>
+            </div>
+            <div>
+              <h4 class="text-xs font-semibold uppercase tracking-wider text-ink mb-1.5">Strategy</h4>
+              <p id="drawer-strategy"></p>
+            </div>
+            <div>
+              <h4 class="text-xs font-semibold uppercase tracking-wider text-ink mb-1.5">Execution</h4>
+              <p id="drawer-execution"></p>
+            </div>
+            <div class="p-4 rounded-2xl bg-canvas border border-borderSubtle">
+              <h4 class="text-xs font-semibold uppercase tracking-wider text-ink mb-2">Key Results</h4>
+              <ul id="drawer-results" class="space-y-1.5 text-sm text-ink font-medium"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-6 border-t border-borderSubtle">
+        <a href="#contact" id="drawer-cta"
+          class="block w-full text-center py-3.5 px-6 rounded-xl bg-ink text-white text-sm font-medium hover:bg-accent transition-colors">
+          Build a Similar System for Your Business
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       LEGAL MODAL OVERLAY (Meta / Google Ads Compliant Privacy & Terms)
+       ======================================================================== -->
+  <div id="legal-modal" class="modal-backdrop fixed inset-0 z-50 bg-black/45 flex items-center justify-center p-4 sm:p-6" role="dialog" aria-modal="true" aria-labelledby="legal-modal-title">
+    <div class="modal-card w-full max-w-2xl max-h-[85vh] bg-white rounded-3xl shadow-2xl border border-borderSubtle flex flex-col overflow-hidden">
+      <div class="px-6 sm:px-8 py-5 border-b border-borderSubtle flex items-center justify-between">
+        <div>
+          <p class="text-[11px] font-semibold uppercase tracking-wider text-accent">Brand Buyo • Legal</p>
+          <h3 id="legal-modal-title" class="font-display font-bold text-xl text-ink">Privacy Policy</h3>
+        </div>
+        <button id="close-legal-btn" type="button" aria-label="Close legal dialog"
+          class="p-2 rounded-xl border border-borderSubtle hover:bg-gray-50 text-ink transition-colors">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div id="legal-modal-body" class="px-6 sm:px-8 py-6 overflow-y-auto text-sm text-slateMuted leading-relaxed space-y-4">
+        <!-- Populated dynamically via JS -->
+      </div>
+      <div class="px-6 sm:px-8 py-4 border-t border-borderSubtle bg-canvas flex justify-end">
+        <button type="button" id="close-legal-footer-btn"
+          class="px-5 py-2.5 rounded-xl bg-ink text-white text-xs font-medium hover:bg-accent transition-colors">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       VANILLA JAVASCRIPT: INTERACTIONS, ESTIMATOR, FAQ, MODALS & FORM HANDLER
+       ======================================================================== -->
+  <script>
+    // ------------------------------------------------------------------------
+    // 1. RESPONSIVE MOBILE NAVIGATION DRAWER
+    // ------------------------------------------------------------------------
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const iconOpen = document.getElementById('menu-icon-open');
+    const iconClose = document.getElementById('menu-icon-close');
+
+    function setMobileMenuState(isOpen) {
+      mobileMenu.classList.toggle('hidden', !isOpen);
+      iconOpen.classList.toggle('hidden', isOpen);
+      iconClose.classList.toggle('hidden', !isOpen);
+      mobileMenuBtn.setAttribute('aria-expanded', String(isOpen));
+    }
+
+    mobileMenuBtn.addEventListener('click', () => {
+      setMobileMenuState(mobileMenu.classList.contains('hidden'));
+    });
+
+    document.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.addEventListener('click', () => setMobileMenuState(false));
+    });
+
+    // ------------------------------------------------------------------------
+    // 2. SUBTLE SCROLL REVEALS (IntersectionObserver)
+    // ------------------------------------------------------------------------
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    // ------------------------------------------------------------------------
+    // 3. INTERACTIVE SERVICE FILTER (6 Cards)
+    // ------------------------------------------------------------------------
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const serviceCards = document.querySelectorAll('.service-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-ink', 'text-white');
+          b.classList.add('bg-canvas', 'text-slateMuted', 'border', 'border-borderSubtle');
+        });
+        btn.classList.remove('bg-canvas', 'text-slateMuted', 'border', 'border-borderSubtle');
+        btn.classList.add('bg-ink', 'text-white');
+
+        const selected = btn.getAttribute('data-filter');
+
+        serviceCards.forEach(card => {
+          const category = card.getAttribute('data-category');
+          if (selected === 'all' || category === selected) {
+            card.style.display = 'flex';
+            requestAnimationFrame(() => {
+              card.style.opacity = '1';
+              card.style.transform = 'translateY(0)';
+            });
+          } else {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(8px)';
+            setTimeout(() => { card.style.display = 'none'; }, 180);
+          }
+        });
+      });
+    });
+
+    // ------------------------------------------------------------------------
+    // 4. CASE STUDY SLIDE-OVER DETAIL DRAWER
+    // ------------------------------------------------------------------------
+    const caseStudies = [
+      {
+        category: 'D2C Skincare • Pan-India',
+        metric: '4.4x',
+        metricLabel: 'Blended Return on Ad Spend',
+        title: 'KayaBotanica Skincare',
+        challenge: 'Static catalog ads were experiencing severe creative fatigue, and a heavy mobile product page caused high drop-offs before checkout.',
+        strategy: 'Shift creative production to credible founder and dermatologist-led short-form Reels while restructuring Meta Advantage+ retargeting and mobile page speed.',
+        execution: 'Produced 12 performance-tested Reels per month, introduced curated routine bundles to lift average order value, implemented Meta CAPI, and trimmed mobile PDP load time under 1.3 seconds.',
+        results: [
+          '• 4.4x blended ROAS across ₹3.6L monthly ad spend',
+          '• +52% increase in average order value via skincare kits',
+          '• 31% repeat customer rate within 60 days'
+        ]
+      },
+      {
+        category: 'Healthcare • Gomti Nagar, Lucknow',
+        metric: '+240%',
+        metricLabel: 'Monthly Implant & Aligner Consults',
+        title: 'Aurelia Multi-Speciality Dental Studio',
+        challenge: 'Heavy reliance on aggregator platforms and unoptimized local search presence meant high-value dental implant and aligner enquiries were going to competing Lucknow clinics.',
+        strategy: 'Turn Google Maps and high-intent local search into the primary direct booking channel with dedicated treatment landing pages.',
+        execution: 'Rebuilt Google Business Profile with structured treatment menus and review velocity workflows, launched fast WhatsApp/Call landing pages, and deployed exact-match local Google Search campaigns.',
+        results: [
+          '• +240% growth in direct monthly implant & aligner bookings',
+          '• #1 Google Maps ranking across 12 priority dental keywords in Lucknow',
+          '• 38% drop in cost per booked consultation'
+        ]
+      },
+      {
+        category: 'EdTech & Coaching • UP & Pan-India',
+        metric: '-44%',
+        metricLabel: 'Lower Cost Per Enrolled Student',
+        title: 'Northstar Competitive Academy',
+        challenge: 'Broad Meta instant lead forms generated cheap clicks, but over 60% of submissions were unqualified, overwhelming the admissions counseling team.',
+        strategy: 'Introduce intentional pre-qualification on a fast web funnel and capture active batch-enrollment intent via Google Search.',
+        execution: 'Built a crisp 3-step scholarship & batch eligibility landing page with GA4 event tracking, paused low-intent placements, and launched segmented Search ad groups by exam category.',
+        results: [
+          '• 44% reduction in cost per enrolled student',
+          '• 2.3x higher counselor call-to-admission conversion rate',
+          '• Clean CRM attribution from ad click to fee payment'
+        ]
+      }
+    ];
+
+    const caseDrawer = document.getElementById('case-drawer');
+    const closeDrawerBtn = document.getElementById('close-drawer-btn');
+    const drawerCta = document.getElementById('drawer-cta');
+
+    function openCaseStudy(index) {
+      const data = caseStudies[index];
+      document.getElementById('drawer-category').textContent = data.category;
+      document.getElementById('drawer-metric').textContent = data.metric;
+      document.getElementById('drawer-metric-label').textContent = data.metricLabel;
+      document.getElementById('drawer-title').textContent = data.title;
+      document.getElementById('drawer-challenge').textContent = data.challenge;
+      document.getElementById('drawer-strategy').textContent = data.strategy;
+      document.getElementById('drawer-execution').textContent = data.execution;
+      document.getElementById('drawer-results').innerHTML = data.results.map(item => `<li>${item}</li>`).join('');
+
+      caseDrawer.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeCaseStudy() {
+      caseDrawer.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    closeDrawerBtn.addEventListener('click', closeCaseStudy);
+    drawerCta.addEventListener('click', closeCaseStudy);
+    caseDrawer.addEventListener('click', (e) => {
+      if (e.target === caseDrawer) closeCaseStudy();
+    });
+
+    // ------------------------------------------------------------------------
+    // 5. LIVE INR GROWTH & BUDGET ESTIMATOR (₹25,000 – ₹5,00,000)
+    // ------------------------------------------------------------------------
+    const budgetSlider = document.getElementById('budget-slider');
+    const budgetDisplay = document.getElementById('budget-display');
+    const goalOptions = document.querySelectorAll('.goal-option');
+    let currentGoal = 'leads';
+
+    const goalConfigs = {
+      leads: {
+        title: 'Qualified Leads',
+        serviceValue: 'Performance Ads (Qualified Leads)',
+        primaryLabel: 'Estimated Monthly Qualified Leads',
+        efficiencyLabel: 'Projected CPL Range',
+        timeline: 'Initial Traction: 2–4 Weeks',
+        split: [55, 25, 20],
+        splitLabels: ['Meta & Google Ads', 'SEO & Content', 'Landing Page CRO'],
+        cplMin: 580,
+        cplMax: 790,
+        cpm: 620
+      },
+      ecommerce: {
+        title: 'E-commerce Sales',
+        serviceValue: 'E-commerce Scaling (Meta & Google)',
+        primaryLabel: 'Estimated Monthly Online Orders',
+        efficiencyLabel: 'Projected Blended ROAS',
+        timeline: 'Scale Velocity: 3–6 Weeks',
+        split: [60, 20, 20],
+        splitLabels: ['Meta & Shopping Ads', 'Reels & UGC Content', 'Storefront CRO'],
+        aov: 1650,
+        roasMin: 3.4,
+        roasMax: 4.5,
+        cpm: 420
+      },
+      local: {
+        title: 'Local Footfall & Calls',
+        serviceValue: 'Local SEO & Google Maps Growth',
+        primaryLabel: 'Estimated Monthly Calls & Walk-ins',
+        efficiencyLabel: 'Projected Cost Per Call',
+        timeline: 'Maps & Calls Ramp: 3–6 Weeks',
+        split: [45, 35, 20],
+        splitLabels: ['Local Search & Reels Ads', 'GBP & Local SEO', 'Call/WhatsApp Funnel'],
+        cpcMin: 210,
+        cpcMax: 320,
+        cpm: 290
+      }
+    };
+
+    function formatINR(num) {
+      return '₹' + Number(num).toLocaleString('en-IN');
+    }
+
+    function updateEstimator() {
+      const budget = parseInt(budgetSlider.value, 10);
+      const cfg = goalConfigs[currentGoal];
+
+      budgetDisplay.textContent = formatINR(budget);
+      document.getElementById('timeline-badge').textContent = cfg.timeline;
+
+      // Update 3-part channel split bar & labels
+      document.getElementById('mix-bar-1').style.width = cfg.split[0] + '%';
+      document.getElementById('mix-bar-2').style.width = cfg.split[1] + '%';
+      document.getElementById('mix-bar-3').style.width = cfg.split[2] + '%';
+      document.getElementById('mix-label-1').textContent = `${cfg.split[0]}% ${cfg.splitLabels[0]}`;
+      document.getElementById('mix-label-2').textContent = `${cfg.split[1]}% ${cfg.splitLabels[1]}`;
+      document.getElementById('mix-label-3').textContent = `${cfg.split[2]}% ${cfg.splitLabels[2]}`;
+
+      document.getElementById('metric-primary-label').textContent = cfg.primaryLabel;
+      document.getElementById('metric-efficiency-label').textContent = cfg.efficiencyLabel;
+
+      const reachLow = Math.round((budget / cfg.cpm) * 0.85);
+      const reachHigh = Math.round((budget / cfg.cpm) * 1.15);
+      document.getElementById('metric-reach-value').textContent = `${reachLow}k – ${reachHigh}k`;
+
+      if (currentGoal === 'leads') {
+        const low = Math.round(budget / cfg.cplMax);
+        const high = Math.round(budget / cfg.cplMin);
+        document.getElementById('metric-primary-value').textContent = `${low.toLocaleString('en-IN')} – ${high.toLocaleString('en-IN')}`;
+        document.getElementById('metric-efficiency-value').textContent = `${formatINR(cfg.cplMin)} – ${formatINR(cfg.cplMax)}`;
+      } else if (currentGoal === 'ecommerce') {
+        const ordersLow = Math.round((budget * cfg.roasMin) / cfg.aov);
+        const ordersHigh = Math.round((budget * cfg.roasMax) / cfg.aov);
+        document.getElementById('metric-primary-value').textContent = `${ordersLow.toLocaleString('en-IN')} – ${ordersHigh.toLocaleString('en-IN')}`;
+        document.getElementById('metric-efficiency-value').textContent = `${cfg.roasMin}x – ${cfg.roasMax}x`;
+      } else {
+        const callsLow = Math.round(budget / cfg.cpcMax);
+        const callsHigh = Math.round(budget / cfg.cpcMin);
+        document.getElementById('metric-primary-value').textContent = `${callsLow.toLocaleString('en-IN')} – ${callsHigh.toLocaleString('en-IN')}`;
+        document.getElementById('metric-efficiency-value').textContent = `${formatINR(cfg.cpcMin)} – ${formatINR(cfg.cpcMax)}`;
+      }
+    }
+
+    goalOptions.forEach(opt => {
+      opt.addEventListener('click', () => {
+        goalOptions.forEach(o => {
+          o.classList.remove('border-2', 'border-ink');
+          o.classList.add('border', 'border-borderSubtle');
+        });
+        opt.classList.remove('border', 'border-borderSubtle');
+        opt.classList.add('border-2', 'border-ink');
+        currentGoal = opt.getAttribute('data-goal');
+        updateEstimator();
+      });
+    });
+
+    budgetSlider.addEventListener('input', updateEstimator);
+
+    // "Lock In This Plan": Scroll to Contact Form & auto-fill goal, budget & plan summary
+    document.getElementById('lock-plan-btn').addEventListener('click', () => {
+      const budget = parseInt(budgetSlider.value, 10);
+      const cfg = goalConfigs[currentGoal];
+      const primaryOutput = document.getElementById('metric-primary-value').textContent;
+
+      const serviceSelect = document.getElementById('serviceInterest');
+      const budgetSelect = document.getElementById('monthlyBudget');
+      const briefField = document.getElementById('projectBrief');
+      const hiddenSummary = document.getElementById('estimatorSummary');
+
+      serviceSelect.value = cfg.serviceValue;
+
+      if (budget <= 50000) budgetSelect.selectedIndex = 0;
+      else if (budget <= 150000) budgetSelect.selectedIndex = 1;
+      else if (budget <= 300000) budgetSelect.selectedIndex = 2;
+      else budgetSelect.selectedIndex = 3;
+
+      const summaryText = `Estimator Plan — Goal: ${cfg.title} | Monthly Budget: ${formatINR(budget)} | Projected Output: ${primaryOutput} (${cfg.primaryLabel}) | Split: ${cfg.split[0]}% ${cfg.splitLabels[0]}, ${cfg.split[1]}% ${cfg.splitLabels[1]}, ${cfg.split[2]}% ${cfg.splitLabels[2]}.`;
+
+      hiddenSummary.value = summaryText;
+      briefField.value = summaryText + '\n\nAdditional details: ';
+
+      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+      setTimeout(() => document.getElementById('fullName').focus(), 550);
+    });
+
+    updateEstimator();
+
+    // ------------------------------------------------------------------------
+    // 6. FAQ INTERACTIVE ACCORDION
+    // ------------------------------------------------------------------------
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+      const trigger = item.querySelector('.faq-trigger');
+      trigger.addEventListener('click', () => {
+        const isOpen = item.classList.contains('open');
+
+        // Close others for crisp single-open editorial rhythm
+        faqItems.forEach(other => {
+          other.classList.remove('open', 'border-gray-300');
+          other.querySelector('.faq-trigger').setAttribute('aria-expanded', 'false');
+        });
+
+        if (!isOpen) {
+          item.classList.add('open', 'border-gray-300');
+          trigger.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+
+    // ------------------------------------------------------------------------
+    // 7. LEGAL MODALS (Privacy Policy & Terms of Service)
+    // ------------------------------------------------------------------------
+    const legalModal = document.getElementById('legal-modal');
+    const legalTitle = document.getElementById('legal-modal-title');
+    const legalBody = document.getElementById('legal-modal-body');
+
+    const legalDocs = {
+      privacy: {
+        title: 'Privacy Policy',
+        html: `
+          <p class="text-xs text-slateMuted">Last Updated: November 2026 • Brand Buyo (Lucknow, Uttar Pradesh, India – 226010)</p>
+          <p>Brand Buyo respects your privacy and is committed to protecting the business and personal information you share with us. This Privacy Policy explains how we collect, use, and safeguard data submitted through our website, lead forms, WhatsApp links, and advertising campaigns (including Meta Ads and Google Ads).</p>
+          <h4 class="font-display font-bold text-ink text-base pt-2">1. Information We Collect</h4>
+          <p>When you submit an enquiry or request a growth audit, we collect your name, phone/WhatsApp number, email address, business name, website URL, marketing budget range, and project brief. We may also collect anonymized analytics data (such as page views and conversion events) via Google Analytics 4 or Meta Pixel to measure campaign performance.</p>
+          <h4 class="font-display font-bold text-ink text-base pt-2">2. How We Use Your Information</h4>
+          <p>We use your contact details strictly to respond to your enquiry, prepare your marketing audit or proposal, and communicate regarding requested services. We do <strong>not</strong> sell, rent, or trade your personal information to third-party data brokers.</p>
+          <h4 class="font-display font-bold text-ink text-base pt-2">3. Data Storage &amp; Security</h4>
+          <p>Enquiry submissions are routed securely to our internal workspace (Google Workspace / CRM) accessible only to authorized Brand Buyo strategy personnel.</p>
+          <h4 class="font-display font-bold text-ink text-base pt-2">4. Your Rights &amp; Contact</h4>
+          <p>You may request access, correction, or deletion of your submitted information at any time by emailing <a href="mailto:businessmarketing2027@gmail.com" class="text-accent underline">businessmarketing2027@gmail.com</a> or calling +91 79834 07812.</p>
+        `
+      },
+      terms: {
+        title: 'Terms of Service',
+        html: `
+          <p class="text-xs text-slateMuted">Last Updated: November 2026 • Brand Buyo (Lucknow, Uttar Pradesh, India – 226010)</p>
+          <p>By accessing this website or engaging Brand Buyo for digital marketing, SEO, content, or web design services, you agree to the following terms.</p>
+          <h4 class="font-display font-bold text-ink text-base pt-2">1. Scope of Services &amp; Projections</h4>
+          <p>All deliverables, timelines, and retainers are formally defined in a written Statement of Work (SOW) prior to onboarding. Figures shown in our website's INR Growth &amp; Budget Estimator are directional benchmarks based on historical Indian campaign data and do not constitute a guaranteed financial outcome.</p>
+          <h4 class="font-display font-bold text-ink text-base pt-2">2. Ad Spend &amp; Account Ownership</h4>
+          <p>Paid advertising budgets (Meta, Google, LinkedIn, etc.) are paid directly by the client to the respective advertising platforms. Clients retain full administrative ownership of their ad accounts, pixels, analytics properties, and website domains.</p>
+          <h4 class="font-display font-bold text-ink text-base pt-2">3. Confidentiality &amp; Intellectual Property</h4>
+          <p>Brand Buyo maintains strict confidentiality over client business metrics, CRM data, and strategies. Upon full settlement of invoices, all custom creatives, landing pages, and deliverables produced for the client transfer to the client.</p>
+          <h4 class="font-display font-bold text-ink text-base pt-2">4. Governing Law &amp; Contact</h4>
+          <p>These terms are governed by the laws of India, with jurisdiction in Lucknow, Uttar Pradesh. For questions regarding these terms, contact <a href="mailto:businessmarketing2027@gmail.com" class="text-accent underline">businessmarketing2027@gmail.com</a>.</p>
+        `
+      }
+    };
+
+    function openLegalModal(type) {
+      const doc = legalDocs[type];
+      if (!doc) return;
+      legalTitle.textContent = doc.title;
+      legalBody.innerHTML = doc.html;
+      legalModal.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLegalModal() {
+      legalModal.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    document.getElementById('close-legal-btn').addEventListener('click', closeLegalModal);
+    document.getElementById('close-legal-footer-btn').addEventListener('click', closeLegalModal);
+    legalModal.addEventListener('click', (e) => {
+      if (e.target === legalModal) closeLegalModal();
+    });
+
+    // Global Escape Key Handler for Case Drawer & Legal Modal
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        if (caseDrawer.classList.contains('open')) closeCaseStudy();
+        if (legalModal.classList.contains('open')) closeLegalModal();
+      }
+    });
+
+    // ------------------------------------------------------------------------
+    // 8. CONTACT FORM SUBMISSION (Google Apps Script Web App Ready)
+    // ------------------------------------------------------------------------
+    // Replace the placeholder below with your deployed Google Apps Script Web App URL
+    // to receive enquiries directly in Google Sheets & businessmarketing2027@gmail.com.
+    const GOOGLE_SCRIPT_URL = "YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL";
+
+    const enquiryForm = document.getElementById('enquiry-form');
+    const formError = document.getElementById('form-error');
+    const formSuccess = document.getElementById('form-success');
+    const submitBtn = document.getElementById('submit-btn');
+
+    enquiryForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      formError.classList.add('hidden');
+
+      const name = document.getElementById('fullName').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const business = document.getElementById('business').value.trim();
+
+      if (!name || !phone || !email || !business) {
+        formError.textContent = 'Please fill in your name, phone number, email address, and business name.';
+        formError.classList.remove('hidden');
+        return;
+      }
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending Enquiry...';
+
+      const payload = new URLSearchParams(new FormData(enquiryForm));
+
+      try {
+        const isConfigured = GOOGLE_SCRIPT_URL && GOOGLE_SCRIPT_URL !== "YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL";
+        if (isConfigured) {
+          await fetch(GOOGLE_SCRIPT_URL, {
+            method: 'POST',
+            body: payload,
+            mode: 'no-cors'
+          });
+        } else {
+          // Graceful demo-mode confirmation until Google Apps Script URL is connected
+          await new Promise(resolve => setTimeout(resolve, 600));
+        }
+
+        enquiryForm.classList.add('hidden');
+        formSuccess.classList.remove('hidden');
+      } catch (err) {
+        formError.textContent = 'Unable to send right now. Please email businessmarketing2027@gmail.com or message us on WhatsApp.';
+        formError.classList.remove('hidden');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Send Enquiry & Request Audit';
+      }
+    });
+
+    document.getElementById('reset-form-btn').addEventListener('click', () => {
+      enquiryForm.reset();
+      document.getElementById('estimatorSummary').value = '';
+      formSuccess.classList.add('hidden');
+      enquiryForm.classList.remove('hidden');
+    });
+  </script>
+</body>
+</html>
